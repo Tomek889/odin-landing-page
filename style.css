@@ -5,7 +5,7 @@
 }
 
 header {
-    height: 70vh;
+    height: 600px;
     background-color: #1f2937;
 }
 
@@ -73,8 +73,22 @@ nav ul .header-logo a {
 }
 
 .quote {
-    height: 50vh;
     background-color: #e5e7eb;
+    padding: 150px 280px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote .quote-author {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .sign-up {
@@ -82,7 +96,7 @@ nav ul .header-logo a {
 }
 
 footer {
-    height: 15vh;
+    height: 150px;
     background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
