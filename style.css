@@ -37,12 +37,18 @@ nav ul .header-logo a {
     padding: 100px 200px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+
+.header-image img {
+    max-width: 480px;
 }
 
 .hero .hero-main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin-bottom: 12px;
 }
 
 .hero {
@@ -51,5 +57,15 @@ nav ul .header-logo a {
 }
 
 .hero button {
-    color: #3882f6;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero button a {
+    text-decoration: none;
 }
