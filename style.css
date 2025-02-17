@@ -74,6 +74,7 @@ nav ul .header-logo a {
     font-weight: 900;
     text-align: center;
     padding: 20px 0px;
+    margin-bottom: 30px;
 }
 
 .info-content {
@@ -85,12 +86,15 @@ nav ul .header-logo a {
     padding-bottom: 130px;
 }
 
-.info-card {
+
+.info-card img, .info-card {
     max-width: 200px;
 }
 
 .info-card img {
-    max-width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
 }
 
 .quote {
