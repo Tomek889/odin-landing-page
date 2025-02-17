@@ -91,12 +91,40 @@ nav ul .header-logo a {
     font-weight: 600;
 }
 
-.sign-up {
-    height: 40vh;
+.banner-sign-up {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3882f6;
+    margin: 150px;
+    padding: 60px 0px;
 }
 
-.banner-sign-up {
-    
+.banner-text {
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.sign-up-header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sign-up-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-btn {
+    margin-right: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #e5e7eb;
+    padding: 8px 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 footer {
