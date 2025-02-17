@@ -68,8 +68,25 @@ nav ul .header-logo a {
     text-decoration: none;
 }
 
-.info {
-    height: 50vh;
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+    gap: 30px;
+    padding-bottom: 130px;
+}
+
+.info-card {
+    max-width: 200px;
 }
 
 .quote {
