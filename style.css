@@ -89,6 +89,10 @@ nav ul .header-logo a {
     max-width: 200px;
 }
 
+.info-card img {
+    max-width: 200px;
+}
+
 .quote {
     background-color: #e5e7eb;
     padding: 150px 280px;
